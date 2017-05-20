@@ -13,4 +13,10 @@ Requirements
 How to Run
 ----------
 
-Make sure your default audio input device is avaliable, and run`python vad.py`
+Make sure your default audio input device is avaliable, and run  
+`python vad.py`
+
+Some details
+------------
+
+This program reads stream audio data from your default audio input device, and decide if a chunk of audio is blank space. It can estimate when you start your sentence and the time you finished.Once you end your conversation, the program write the voice into `*.wav`file.

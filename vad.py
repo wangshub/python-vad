@@ -144,7 +144,7 @@ while not leave:
         raw_data.pop()
     raw_data.reverse()
     raw_data = normalize(raw_data)
-    record_to_file("/tmp/recording.wav", raw_data, 2)
+    record_to_file("recording.wav", raw_data, 2)
     leave = True
 
 stream.close()
